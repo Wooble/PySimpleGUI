@@ -2744,7 +2744,7 @@ The return value for `OneLineProgressMeter` is:
 `True` if meter updated correctly      
 `False` if user clicked the Cancel button, closed the window, or vale reached the max value.      
       
-#### Progress Mater in Your window      
+#### Progress Meter in Your window      
 Another way of using a Progress Meter with PySimpleGUI is to build a custom window with a `ProgressBar` Element in the window.  You will need to run your window as a non-blocking window.  When you are ready to update your progress bar, you call the `UpdateBar` method for the `ProgressBar` element itself.      
       
 ![progress custom](https://user-images.githubusercontent.com/13696193/45243969-c3508100-b2c3-11e8-82bc-927d0307e093.jpg)      
